@@ -45,3 +45,25 @@
     top: 0;
     left: 0;
 }
+
+/*
+    SEZIONE ESERCIZI
+*/
+
+.exercise-item:first-of-type,
+.exercise-item:last-of-type {
+    background-color: #f0fff4;
+    position: relative;
+}
+
+.exercise-item:first-of-type::before,
+.exercise-item:last-of-type::before {
+    content: "";
+    height: 84px;
+    width: 5px;
+    border-radius: 8px 0 0 8px;
+    background-color: #30cc72;
+    position: absolute;
+    top: 0;
+    left: -3px;
+}
