@@ -2,3 +2,12 @@
     content: "\1F525";
     font-size: 35px;
 }
+
+.stats-grid:last-child {
+    background-color: #6b5aba;
+}
+
+.stats-grid:last-child .stat-number,
+.stats-grid:last-child .stat-label {
+    color: #fff;
+}
