@@ -35,16 +35,10 @@
     position: relative;
 }
 
-.workout-plan:nth-of-type(2) h3::before {
-    content: "";
-    height: 149px;
-    width: 6px;
-    border-radius: 8px 0 0 8px;
-    background-color: #f39c12;
-    position: absolute;
-    top: 0;
-    left: 0;
+.workout-plan:nth-of-type(2) {
+    border-left: 5px solid #f39e15;
 }
+
 
 /*
     SEZIONE ESERCIZI
@@ -56,16 +50,9 @@
     position: relative;
 }
 
-.exercise-item:first-of-type::before,
-.exercise-item:last-of-type::before {
-    content: "";
-    height: 84px;
-    width: 5px;
-    border-radius: 8px 0 0 8px;
-    background-color: #30cc72;
-    position: absolute;
-    top: 0;
-    left: -3px;
+.exercise-item:first-of-type,
+.exercise-item:last-of-type {
+    border-left: 5px solid #30cc72;
 }
 
 .exercise-item:nth-of-type(even)::before {
