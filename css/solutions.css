@@ -33,14 +33,14 @@
 .workout-plan:nth-of-type(2) {
     background-color: #fff8ba;
     position: relative;
-    z-index: 100;
 }
 
 .workout-plan:nth-of-type(2) h3::before {
     content: "";
-    height: 139px;
-    border-radius: 20px;
-    border: 5px solid #f39c12;
+    height: 149px;
+    width: 6px;
+    border-radius: 8px 0 0 8px;
+    background-color: #f39c12;
     position: absolute;
     top: 0;
     left: 0;
