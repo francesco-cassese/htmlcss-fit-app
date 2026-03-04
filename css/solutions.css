@@ -1,3 +1,7 @@
+/*
+    SEZIONE STATISTICHE
+*/
+
 .stats-grid:first-child::before {
     content: "\1F525";
     font-size: 35px;
@@ -10,4 +14,14 @@
 .stats-grid:last-child .stat-number,
 .stats-grid:last-child .stat-label {
     color: #fff;
+}
+
+.stats-grid {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.stats-grid:hover {
+    transform: translatey(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0.1);
 }
