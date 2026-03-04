@@ -103,3 +103,21 @@
     transform: translatey(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 255, 0.3)
 }
+
+/*
+    NAVBAR
+*/
+
+.nav-footer {
+    transition: 0.3s ease;
+}
+
+.nav-footer a:hover {
+    background-color: darkblue;
+    color: blue;
+}
+
+.nav-footer .nav-item:first-child {
+    background-color: darkblue;
+    color: blue;
+}
