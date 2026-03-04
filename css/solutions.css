@@ -1,0 +1,4 @@
+.stats-grid:first-child::before {
+    content: "\1F525";
+    font-size: 35px;
+}
