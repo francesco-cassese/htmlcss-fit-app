@@ -67,3 +67,24 @@
     top: 0;
     left: -3px;
 }
+
+.exercise-item:nth-of-type(even)::before {
+    content: "\26a1";
+}
+
+/*
+    I TUOI PROGRESSI
+*/
+
+.progress-fill {
+    position: relative;
+}
+
+.progress-fill::before {
+    content: "65%";
+    position: absolute;
+    top: -4px;
+    right: 0;
+    color: #fff;
+    font-size: 12px;
+}
