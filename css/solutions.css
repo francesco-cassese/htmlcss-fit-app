@@ -88,3 +88,13 @@
     color: #fff;
     font-size: 12px;
 }
+
+/*
+    SEZIONE GOALS
+*/
+
+.goal-input-group input:focus,
+.goal-input-group select:focus {
+    border: 3px solid blue;
+    box-shadow: 0 4px 10px rgba(0, 0, 255, 0.3)
+}
