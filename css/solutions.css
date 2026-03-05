@@ -86,8 +86,9 @@
 .progress-fill::before {
     content: "65%";
     position: absolute;
-    top: -4px;
+    top: 50%;
     right: 5px;
+    translate: 0 -50%;
     color: #fff;
     font-size: 12px;
 }
