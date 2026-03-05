@@ -47,11 +47,6 @@
 .exercise-item:first-of-type,
 .exercise-item:last-of-type {
     background-color: #f0fff4;
-    position: relative;
-}
-
-.exercise-item:first-of-type,
-.exercise-item:last-of-type {
     border-left: 5px solid #30cc72;
 }
 
